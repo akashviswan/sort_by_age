@@ -2,7 +2,7 @@ import pandas as pd
 import sys
 
 # converting the age field to some standard
-# would have been much easier if  "kubectle get nodes -o yaml" was used to get creationTimestamp of each node
+# would have been much easier if  "kubectl get nodes -o yaml" was used to get creationTimestamp of each node
 
 
 def convert_age_string_to_seconds(age):
