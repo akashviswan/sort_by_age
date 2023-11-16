@@ -1,5 +1,6 @@
-import pandas as pd
 import sys
+import pandas as pd
+
 
 # converting the age field to some standard
 # would have been much easier if  "kubectl get nodes -o yaml" was used to get creationTimestamp of each node
