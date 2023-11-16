@@ -1,0 +1,9 @@
+ip-10-150-12-209.us-west-2.compute.internal   Ready    <none>   26d     v1.20.4    10.150.12.209   <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
+ip-10-150-12-223.us-west-2.compute.internal   Ready    <none>   2m15s   v1.21.13   10.150.12.223   <none>        Ubuntu 20.04.4 LTS   5.15.0-1017-aws   docker://20.10.12
+ip-10-150-15-162.us-west-2.compute.internal   Ready    <none>   26d     v1.20.4    10.150.15.162   <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
+ip-10-150-24-48.us-west-2.compute.internal    Ready    <none>   26d     v1.20.4    10.150.24.48    <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
+ip-10-150-29-111.us-west-2.compute.internal   Ready    <none>   26d     v1.20.4    10.150.29.111   <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
+ip-10-150-31-171.us-west-2.compute.internal   Ready    <none>   131d    v1.20.4    10.150.31.171   <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
+ip-10-150-38-209.us-west-2.compute.internal   Ready    <none>   26d     v1.20.4    10.150.38.209   <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
+ip-10-150-41-49.us-west-2.compute.internal    Ready    <none>   26d     v1.20.4    10.150.41.49    <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
+ip-10-150-41-65.us-west-2.compute.internal    Ready    <none>   7h59m   v1.20.4    10.150.41.65    <none>        Ubuntu 20.04.2 LTS   5.8.0-1041-aws    docker://20.10.2
