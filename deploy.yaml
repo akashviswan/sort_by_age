@@ -1,0 +1,46 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Docker
+        uses: docker/setup-docker-action@v2
+
+      - name: Build and push Docker image
+        run: |
+          docker build -t sort-app:${{ github.sha }} .
+          docker push sort-app:${{ github.sha }}
+
+      - name: Deploy to Kubernetes
+        uses: <some deployment module>
+        with:
+          namespace: test
+          manifests: |
+            apiVersion: apps/v1
+            kind: Deployment
+            metadata:
+              name: sort-app
+            spec:
+              replicas: 1
+              selector:
+                matchLabels:
+                  app: sort-app
+              template:
+                metadata:
+                  labels:
+                    app: sort-app
+                spec:
+                  containers:
+                  - name: sort-app
+                    image: sort-app:${{ github.sha }}
+                    ports:
+                    - containerPort: 80
